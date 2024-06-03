@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>sample page for a restaurant</title>
+	<style>
+		header
+		{
+			background-color: #333;
+			font-family:copperplate,fantasy;
+			text-align:center;
+			font-size:25px;
+			padding:20px;
+			color:white;
+		}
+		nav
+		{
+			text-align: center;
+			padding:5px;
+			font-family:arial,sans-serif;
+			background-color:#444;
+			color:white;
+
+		}
+		nav a
+		{
+			color:white;
+			margin:0 5px;
+            font-style:bold;
+            text-decoration:none;
+            
+		}
+		section
+		{
+			font-family:arial,sans-serif;
+			padding:10px;
+			color:#333;
+		}
+		hr 
+		{
+			border:solid 1px;
+		}
+		.menu
+		{
+			display:flex;
+			justify-content: space-around;
+		}
+		.menu-item{
+			border:1px dashed;
+			padding:20px;
+		
+		}
+        ul.a	
+        {
+        	list-style-type:square;
+        }
+        footer
+		{
+			background-color: #333;
+			font-family:copperplate,fantasy;
+			text-align:center;
+			font-size:15px;
+			padding:10px;
+			color:white;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+<h1>123 RESTAURANT</h1>
+</header>
+<nav>
+	<a href="#home">Home</a>
+	<a href="#aboutus">AboutUs</a>
+	<a href="#menu">Menu</a>
+	<a href="#Contact">Contact</a>
+	<a href="#review">Review</a>
+</nav>
+
+<section id="home">
+	<h2>Welcome to Our Restaurant</h2>
+<p>Experience the best dining at our restaurant.</p> 
+</section>
+
+<hr>
+<section id="aboutus">
+	<h2>Explore 123 Restaurant</h2>
+	<p>
+		You can find the best Ambience here.
+		We offer a variety of delicious dishes and a cozy atmosphere.
+	</p>
+	<h3>Located at:</h3>
+	<p> 123 street,Hyderabad</p>
+	<h3>Do visit us!</h3>
+</section>
+<hr>
+
+<section id="menu">
+	<h2>Our menu</h2>
+	<h4>TOP RATED DISHES HERE:</h4>
+	<div class="menu">
+		<div class="menu-item">
+			<h3>Mocktails
+			</h3>
+			<h5>
+				Best Refreshments you can opt for.
+			</h5>
+			<ol>
+                <li> Virgin mojito</li>
+                <li>Unicorn lemonade</li>
+                <li>Lemon Basil soda</li>
+			</ol>
+		</div>
+		<div class="menu-item">
+			<h3>Starters
+			</h3>
+			<h5>Delicious starters to begin your meal.</h5>
+			<ol>
+                <li>Crispy corn</li>
+                <li>Chilly Babycorn</li>
+                <li>Babycorn 65</li>
+                <li>Paneer tikka</li>
+			</ol>
+		</div>
+		<div class="menu-item">
+			<h3>Main Course
+			</h3>
+			<h5>Just like AMMA chethi vanta.
+			</h5>
+			<ol>
+                <li>Hyderabad dum Biryani</li>
+                <li>Chettinad Paneer Biryani</li>
+                <li>Butter Naan</li>
+                <li>Curd rice</li>
+                <li>Veg meal</li>
+                <ul class ="a">
+                	<li>guthi vankaya</li>
+                    <li>gongura</li>
+                    <li>pappu</li>
+                    <li>chintakaya pachadi</li>
+                    <li>tomato rasam</li>
+                    <li>sambar</li>
+                </ul>
+			</ol>
+		</div>
+			<div class="menu-item">
+			<h3>Desserts
+			</h3>
+			<h5>Sweet treats to end you meal on a high note.</h5>
+			<ol>
+                <li>Icecreams</li>
+                <ul class ="a">
+                	<li>vannilla</li>
+                	<li>strawberry</li>
+                	<li>chocolate</li>
+                	<li>cookies and creme</li>
+                </ul>
+                <li>Gulabjamun with icecream</li>
+                <li>Pastry</li>
+                
+			</ol>
+		</div>
+
+</div>
+</section>
+<hr>
+<section id="Contact">
+	<h2>Contact details:</h2>
+	<form>
+		Name:<input type="text" name="name" required><br><br>
+		Email address:<input type="email" name="email"required><br><br>
+		Message:<br>
+		<textarea id="Message" name="message" rows="5" columns="100"></textarea><br>
+		<br>
+		<input type="submit" value="send message:)" >
+	</form>
+</section>
+<hr>
+<section id="review">
+	<h2>Reviews:
+	</h2>
+	<p>GeethaShree Pallapothu:
+		<br>
+		Its one the amazing restaurants I have visited.
+		The food tastes delicious and mouth-watering.
+		Its atmosphere is do homely.
+		I would rate it a 8.5/10. 
+	</p>
+	<br>
+	<p>Saiphani Pallapothu:
+		<br>
+		One of best ambiences can be found here.
+		Personally,the most delicious dish here would be paneer tikka.
+		I would rate it a 9.5/10. 
+	</p>
+	<br>
+	<h5>
+		To write your review:
+	</h5>
+<a href="review.html">click here</a>
+</section>
+<footer>
+	<h1>Thanks for visiting!</h1>
+</footer>
+</body>
+</html>
